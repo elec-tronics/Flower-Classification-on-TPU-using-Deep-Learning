@@ -23,5 +23,11 @@ Compute: Tensor Processing Unit (TPU) via Kaggle + Google Cloud Storage (GCS) in
 
 ## Approach
 
+## Results 
+Ensemble methods yielded better classification accuracy and F1 score. Additional training data also helped in improving the F1 score. 
+
+The best classification performance was achieved with an ensemble of EfficientNet and DenseNet with additional training data.
+<img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/30c630fb-c2cb-4242-8208-bff5c1a71c50" />
+
 ## Contributing
 Contributions are welcome! Please fork the repo and submit a pull request.
