@@ -23,7 +23,7 @@ Deep Learning Architectures: DenseNet, ResNet, VGG19, GoogleNet, Vision Transfor
 Compute: Tensor Processing Unit (TPU) via Kaggle + Google Cloud Storage (GCS) integration
 
 ## Approach
-Exploratory Data Analysis (EDA): Data overview, image inspection, observed class patterns, performed data quality checks, statistical insights
+Exploratory Data Analysis (EDA): Data overview, image inspection, observed class patterns, performed data quality checks, gained statistical insights
 
 Data preprocessing: Data augmentation - random flip, random saturation, random blockout, flattening images with linear embedding
 
