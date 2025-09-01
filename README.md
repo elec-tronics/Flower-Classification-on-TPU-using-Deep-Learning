@@ -1,4 +1,5 @@
 # Flower-Classification-on-TPU-using-Deep-Learning
+Exploring CNNs, Vision Transformers, and ensemble learning for scalable computer vision tasks.
 
 ## Overview
 This project tackles a multi-class image classification problem from a Kaggle competition, aiming to accurately recognize and differentiate between 104 flower categories. The dataset (5GB+) is provided in TFRecord format and includes diverse, imperfect real-world images, making it well-suited for robust model training. The solution leverages advanced Convolutional Neural Network (CNN) architectures such as DenseNet, ResNet, VGG19, GoogleNet, and Swin and Vision Transformers (ViT), as well as potential ensemble methods, to achieve high accuracy. To address the challenge of long training times in deep learning, the project utilizes Tensor Processing Units (TPUs) on Google Cloud through Kaggle, enabling faster convergence and reducing training time from ~8 hours to under 2 hours. The model outputs an augmented image with a bounding box around the flower, its predicted class, and confidence score, with performance evaluated using macro F1 score as the primary metric.
