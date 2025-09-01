@@ -22,11 +22,19 @@ Deep Learning Architectures: DenseNet, ResNet, VGG19, GoogleNet, Vision Transfor
 Compute: Tensor Processing Unit (TPU) via Kaggle + Google Cloud Storage (GCS) integration
 
 ## Approach
+Exploratory Data Analysis (EDA): Data overview, image inspection, observed class patterns, performed data quality checks, statistical insights
+
+Data preprocessing: Data augmentation - random flip, random saturation, random blockout, flattening images with linear embedding
+
+Modeling: CNN Transfer Learning, Xception, EfficientNet, Inception-ResNet, DenseNet, Vision Transformer, SWIN Transformer and Ensemble methods used
+
+Evaluation Metrics: Accuracy, F1 score, macro F1 score considered
 
 ## Results 
 Ensemble methods yielded better classification accuracy and F1 score. Additional training data also helped in improving the F1 score. 
 
-The best classification performance was achieved with an ensemble of EfficientNet and DenseNet with additional training data.
+The best classification performance was achieved with an ensemble of EfficientNet + DenseNet with additional training data, yielding a F1 score of 0.969.
+
 <img width="786" height="500" alt="image" src="https://github.com/user-attachments/assets/30c630fb-c2cb-4242-8208-bff5c1a71c50" />
 
 ## Contributing
